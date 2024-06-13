@@ -1,0 +1,60 @@
+.p1 {
+    padding: 40px 80px;
+}
+
+/* Styles for FAQ topic boxes */
+.faq-topic-box {
+    width: 250px;
+    height: 200px;
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block; 
+    vertical-align: top;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease; 
+}
+
+/* Hover effect */
+.faq-topic-box:hover {
+    text-decoration-color: black;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+} 
+
+.faq-name {
+    font-size: large;
+    font-display: black;
+}
+
+.faq-icon {
+    font-size: 60px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+/* Styles for FAQ topics page */
+.faq-topics {
+    text-align: center;
+}
+
+/* Styles for FAQ page 
+h4 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.question {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.answer {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}*/

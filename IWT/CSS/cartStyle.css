@@ -1,0 +1,39 @@
+.container1
+{
+    position: relative;
+   text-align: center;
+   color: white;
+}
+.imgtext
+{
+    
+    border-radius: 3px;
+    height: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+.image
+{
+    width: 1400px;
+    height: 500px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bgTableColor
+{
+  background-color: white;
+}
+.bgBodyColor
+{
+  background-color: blanchedalmond;
+}

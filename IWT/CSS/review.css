@@ -1,0 +1,149 @@
+ 
+
+/* Style for form container */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+/* Style for form header */
+.form-container h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Style for form fields */
+.form-container label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-container input[type="text"],
+.form-container textarea,
+.form-container select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+/* Style for submit button */
+.form-container button{
+    background-color: goldenrod;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-container button {
+    margin: 0 10px; 
+}
+
+/* Style for submit button on hover */
+.form-container button:hover {
+    background-color: #45a049;
+}
+
+
+/* Style for go back link */
+.form-container a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.review-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    white-space: nowrap;
+}
+.buttons{
+  display: inline-flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-self: center;
+  align-content: flex-start;
+
+}
+.Rheading{
+    margin: 0;
+    
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.buttons a, .buttons button {
+    padding: 10px 20px;
+    background-color: rgb(7, 170, 7);
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+.buttons button {
+    background-color: #f44336; /* Red color for delete button */
+}
+
+
+
+
+/* Review container */
+.review-container {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Username */
+.username {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Rating */
+.rating {
+    margin-top: 5px;
+    font-style: italic;
+    color: #777;
+}
+
+/* Define CSS for star icons */
+.rating-container {
+    display: inline-block;
+}
+
+
+/* Description */
+.description {
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Date */
+.date {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #999;
+}

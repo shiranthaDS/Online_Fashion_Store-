@@ -1,0 +1,105 @@
+/* Global Styles */
+body, h1, p, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Updated font-family */
+    background-color: white; /* Background color set to white */
+    color: black; /* Text color set to black */
+    line-height: 1.6; /* Improved line height for readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styles */
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid gold; /* Border color set to gold */
+    border-radius: 10px; /* Rounded corners */
+    background-color: white; /* Background color */
+    max-width: 800px; /* Set max-width for better readability */
+    
+    
+}
+.container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    border-color: gold;
+}
+
+/* Heading Styles */
+h1 {
+    color: gold; /* Heading color set to gold */
+    margin-bottom: 20px;
+    font-size: 2rem; /* Increased font size for better readability */
+    text-align: center; /* Center the heading */
+}
+
+/* Form Styles */
+form {
+    display: grid; /* Using grid layout */
+    gap: 10px; /* Gap between grid elements */
+    max-width: 100%; /* Ensure form width stays within the container */
+}
+
+/* Form Labels */
+.form-label {
+    font-weight: bold;
+    color: black; /* Label text color set to black */
+}
+
+/* Form Inputs */
+.form-control {
+    width: 100%;
+    padding: 10px; /* Increased padding for better user experience */
+    border: 1px solid gold; /* Border color set to gold */
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s; /* Smooth transition for focus effect */
+}
+
+.form-control:focus {
+    border-color: black; /* Change border color on focus */
+}
+
+/* Button Styles */
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    transition: opacity 0.3s; /* Smooth transition for hover effect */
+}
+
+.btn-primary {
+    background-color: gold; /* Button background color set to gold */
+}
+
+.btn-secondary {
+    background-color: black; /* Button background color set to black */
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+    opacity: 0.8; /* Add hover effect */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    /* Adjust container and form styles for small screens */
+    .container {
+        padding: 15px; /* Reduce padding */
+        width: 90%; /* Adjust width */
+    }
+
+    form {
+        display: block; /* Change form layout */
+    }
+}

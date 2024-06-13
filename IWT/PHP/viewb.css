@@ -1,0 +1,74 @@
+/* Custom Theme Colors */
+:root {
+  --primary-color: #ffd700; /* Gold */
+  --secondary-color: #000000; /* Black */
+  --accent-color: #ffffff; /* White */
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--secondary-color);
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: var(--accent-color);
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+  color: var(--primary-color);
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: var(--accent-color);
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #c0a000; /* Darker shade on hover */
+  border-color: #c0a000; /* Darker border on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Shadow on hover */
+}
+
+.btn-success,
+.btn-danger {
+  transition: all 0.3s ease;
+}
+
+.btn-success:hover,
+.btn-danger:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Shadow on hover */
+}
+
+/* Table */
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th,
+.table td {
+  border: 1px solid var(--secondary-color);
+  padding: 8px;
+}
+
+.table th {
+  background-color: var(--primary-color);
+  color: var(--accent-color);
+  text-align: left;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Container */
+.container {
+  margin-top: 20px;
+}
+
+/* Add more styles as needed */

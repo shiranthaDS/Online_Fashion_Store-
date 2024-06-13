@@ -1,0 +1,49 @@
+.image
+{
+    width: 1400px;
+    height: 500px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.container1 
+{
+    text-align: center;
+}
+.imgtext
+{
+    
+    border-radius: 3px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.box
+{
+    
+    background-color: aqua;
+    padding: 10px;
+    
+    color: black;
+    
+    font-size: 20px;
+
+   
+
+    width: 50%;
+    margin: 20px auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
